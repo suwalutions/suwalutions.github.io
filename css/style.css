@@ -4,6 +4,10 @@ body {
   color: #040000;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
