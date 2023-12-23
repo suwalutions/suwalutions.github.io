@@ -387,7 +387,7 @@ a:focus {
   background-color: #ffffff;
   color: #555089;
   -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+/*  transition: all 0.3s; */
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
