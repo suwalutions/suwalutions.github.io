@@ -42,31 +42,3 @@ $(".owl-carousel").owlCarousel({
     }
 });
 
-/** google_map js **/
-let map;
-
-async function initMap() {
-	// The location of Suwalutions Co., Ltd.
-	const position = { lat: 13.71410175161285, lng: 100.35880454890604 };
-	
-	// Request needed libraries.
-	const { Map } = await google.maps.importLibrary("maps");
-	const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-
-	// The map, centered at Suwalutions
-	map = new Map(document.getElementById("googleMap"), {
-		zoom: 4,
-		center: position,
-		mapId: "DEMO_MAP_ID",
-	});
-
-	// The marker, positioned at Uluru
-	const marker = new AdvancedMarkerElement({
-		map: map,
-		position: position,
-		title: "Suwalutions Co., Ltd.",
-	});
-}
-
-initMap();
-
