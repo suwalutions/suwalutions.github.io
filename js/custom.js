@@ -1,3 +1,14 @@
+// back to top
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+	if (window.pageYOffset > 100) {
+		toTop.classList.add("active");
+	} else {
+		toTop.classList.remove("active");
+	}
+})
+
 // Get Current Year
 function getCurrentYear() {
     var d = new Date();
@@ -35,7 +46,7 @@ $(".owl-carousel").owlCarousel({
 
 function myMap() {
     var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
+        center: new google.maps.LatLng(13.71410175161285, 100.35880454890604),
         zoom: 18,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
