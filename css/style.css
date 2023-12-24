@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Exo 2', sans-serif;
   color: #040000;
 }
 
@@ -55,7 +55,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-transform: uppercase;
-  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .heading_container p {
@@ -96,7 +95,6 @@ html {
 
 h1,
 h2 {
-  font-family: 'Merriweather Sans', sans-serif;
 }
 
 a,
@@ -161,6 +159,9 @@ a:focus {
 	height: 150px;
 }
 
+.container-fluid i {
+	color: #ff8a1d;
+}
 .custom_nav-container {
   padding: 0;
 }
@@ -342,7 +343,6 @@ a:focus {
 
 .slider_section .detail-box a {
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
   background-color: #ff8a1d;
@@ -418,7 +418,6 @@ a:focus {
 .feature_section .feature_container .box .name {
   margin-top: 20px;
   text-transform: uppercase;
-  font-family: 'Merriweather Sans', sans-serif;
   margin-bottom: 0;
 }
 
@@ -453,7 +452,6 @@ a:focus {
 .about_section .detail-box a {
   margin-top: 15px;
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
   background-color: #0355cc;
@@ -498,7 +496,6 @@ a:focus {
 .professional_section .detail-box a {
   margin-top: 25px;
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
   background-color: #ff8a1d;
@@ -591,7 +588,6 @@ a:focus {
 
 .service_section .btn-box a {
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
   background-color: #0355cc;
@@ -723,7 +719,6 @@ a:focus {
 .contact_section button {
   border: none;
   display: inline-block;
-  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 55px;
   background-color: #0355cc;
